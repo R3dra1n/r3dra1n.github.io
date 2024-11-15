@@ -4,7 +4,7 @@ title: Macbook 安装 jekyll
 categories: [分类1, 分类2]
 ---
 
-# Macbook 安装 jekyll 
+Macbook 安装 jekyll 
 
 根据 jekyll 官方的指示，直接使用命令安装
 
