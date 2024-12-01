@@ -1,8 +1,12 @@
 ---
+
 layout: post
-title: Macbook 安装Ruby
+title: Macbook 安装 Ruby
 date:   2024-11-17 17:22:52 +0800
-categories: [分类1, 分类2]
+description: MacOS 已经有内建 Ruby，但是版本不够，需要额外安装新的版本
+categories: Apple MacBook 
+Tags: MacBook Ruby AppleM芯片 Blog
+
 ---
 
 
@@ -76,10 +80,6 @@ For compilers to find ruby you may need to set:
   export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
   export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
 ```
-
-
-
-<iframe src="https://app.warp.dev/block/embed/TG9ke0RJhQZJEt1wdR3mIi" title="embedded warp block" style="width: 1582px; height: 1195px; border:0; overflow:hidden;" allow="clipboard-read; clipboard-write"></iframe>
 
 安装以后，看到提示信息，需要调整path变量，先再看一下 ruby 版本
 

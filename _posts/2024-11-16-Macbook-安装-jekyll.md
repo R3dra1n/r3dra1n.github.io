@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Macbook 安装 jekyll 
+title: MacBook 安装 jekyll 
+description: Apple M 芯片安装 jekyll 的坑，安装路径问题
 date:   2024-11-15 17:22:52 +0800
-categories: MacBook 
-Tags: Macbook jekyll AppleM芯片 Blog
+categories: Apple MacBook 
+Tags: MacBook jekyll AppleM芯片 Blog
 ---
 
 # 背景
