@@ -2,10 +2,17 @@
 layout: post
 title: Macbook 安装 jekyll 
 date:   2024-11-15 17:22:52 +0800
-categories: [分类1, 分类2]
+categories: MacBook 
+Tags: Macbook jekyll AppleM芯片 Blog
 ---
 
-Macbook 安装 jekyll 
+# 背景
+
+- 时间：2024.11.01
+- 芯片：Apple M3
+- MacOS：Sequoia 15.1
+
+# 过程
 
 根据 jekyll 官方的指示，直接使用命令安装
 
