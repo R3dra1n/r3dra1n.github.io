@@ -4,10 +4,10 @@ title: MacBook 安装 jekyll
 description: Apple M 芯片安装 jekyll 出现的坑！
 date:   2024-11-15 17:22:52 +0800
 categories: Apple MacBook 
-Tags: MacBook jekyll AppleM芯片 Blog
+tags: MacBook jekyll AppleM芯片 Blog
 ---
 
-# 一、背景
+## 一、背景
 
 - 时间：2024.11.01
 - 芯片：Apple M3
@@ -15,7 +15,7 @@ Tags: MacBook jekyll AppleM芯片 Blog
 
 
 
-# 二、问题
+## 二、问题
 
 根据 jekyll 官方的指示，直接使用命令安装
 
@@ -34,7 +34,7 @@ zsh: command not found: jekyll
 
 
 
-# 三、解决方法
+## 三、解决方法
 
 大概率是安装路径问题，而且应该是在Apple芯片的机型上，默认安装路径导致的问题，即安装路径不在系统的PATH环境变量中。
 
