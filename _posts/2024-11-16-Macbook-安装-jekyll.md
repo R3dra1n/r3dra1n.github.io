@@ -1,19 +1,21 @@
 ---
 layout: post
 title: MacBook 安装 jekyll 
-description: Apple M 芯片安装 jekyll 的坑，安装路径问题
+description: Apple M 芯片安装 jekyll 出现的坑！
 date:   2024-11-15 17:22:52 +0800
 categories: Apple MacBook 
 Tags: MacBook jekyll AppleM芯片 Blog
 ---
 
-# 背景
+# 一、背景
 
 - 时间：2024.11.01
 - 芯片：Apple M3
 - MacOS：Sequoia 15.1
 
-# 过程
+
+
+# 二、问题
 
 根据 jekyll 官方的指示，直接使用命令安装
 
@@ -32,9 +34,9 @@ zsh: command not found: jekyll
 
 
 
-解决方法
+# 三、解决方法
 
-大概率是安装路径问题，而且应该是在Apple芯片的机型上，默认安装路径导致的问题，吉安装路径不在系统的PATH环境变量中。
+大概率是安装路径问题，而且应该是在Apple芯片的机型上，默认安装路径导致的问题，即安装路径不在系统的PATH环境变量中。
 
 1. 找到路径
 
@@ -53,22 +55,25 @@ zsh: command not found: jekyll
    ```
 
 
+
 2. 将路径添加到PATH
 
+   1. 打开.zshrc
 
-      1. 打开.zshrc
-    
-         ```bash
-         open ~/.zshrc
-         ```
-    
-      1. 在文件内添加以下。（路径名为步骤1找到的路径）
-    
-         ```bash
-         export PATH="/opt/homebrew/lib/ruby/gems/3.3.0/bin:$PATH"
-         ```
-    
-      3. 保存后退出
+     ```bash
+     open ~/.zshrc
+     ```
+
+   2. 在文件内添加以下。（路径名为步骤1找到的路径）
+
+     ```bash
+     export PATH="/opt/homebrew/lib/ruby/gems/3.3.0/bin:$PATH"
+     ```
+
+   3. 保存后退出
+   
+   
+
 
 3. 重新加载 .zshrc
 

@@ -3,16 +3,21 @@
 layout: post
 title: Macbook 安装 Ruby
 date:   2024-11-17 17:22:52 +0800
-description: MacOS 已经有内建 Ruby，但是版本不够，需要额外安装新的版本
+description: MacOS 已经有内建 Ruby，但是版本不够，需要额外安装新的版本。
 categories: Apple MacBook 
 Tags: MacBook Ruby AppleM芯片 Blog
 
 ---
 
+# 一、背景
+
+- 时间：2024.11.17
+- 芯片：Apple M3
+- MacOS：Sequoia 15.1
 
 
-- 系统
-- 芯片
+
+# 二、问题
 
 MacOS 已经有内建 Ruby，但是版本不够，需要额外安装新的版本。查看现有版本，在terminal输入：
 
@@ -23,6 +28,8 @@ ruby 2.6.10p210 (2022-04-12 revision 67958) [universal.arm64e-darwin24]
 ```
 
 
+
+# 三、解决方法
 
 使用 brew 安装 ruby
 
