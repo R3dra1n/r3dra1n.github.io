@@ -45,7 +45,7 @@ st.title('Streamlit的功能和demo')
 st.write("欢迎使用Streamlit！")
 ```
 
-![image-20241212193627795](/Users/william/Library/Application Support/typora-user-images/image-20241212193627795.png)
+![image-20241212193627795](/Users/william/myblog/assets/img/1.png)
 
 ## 3.2 文字的输入
 
@@ -63,7 +63,9 @@ add = st.text_area("输入地址")
 st.write(f"Hi {name}!, 您住的地方是{add}")
 ```
 
-![image-20241212203130075](/Users/william/Library/Application Support/typora-user-images/image-20241212203130075.png)
+![image-20241212203130075](/Users/william/myblog/assets/img/2.png)
+
+
 
 
 
