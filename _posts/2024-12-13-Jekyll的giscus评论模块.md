@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jekyll的giscus评论模块
-date: 2024-12-13 15:22:52 +0800
+date: 2024-12-13 15:22:52 +0800÷÷
 description: jekyll创建的blog，用giscus模块增加评论模块
 categories: Blog
 tags: MacBook AppleM芯片 Jekyll giscus
@@ -37,7 +37,7 @@ tags: MacBook AppleM芯片 Jekyll giscus
 
 
 > 第三个，启用之后，要到github页面上发个第一篇，好像才能work
->{: .prompt-tip}
+ {: .prompt-tip }
 
 前面全部填好之后，下面会自动生成好giscus的代码
 
