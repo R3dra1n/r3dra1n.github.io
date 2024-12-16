@@ -32,7 +32,7 @@ tags: MacBook AppleM芯片 Jekyll giscus
 > 记得这三个一定要做，不然会失败
  {: .prompt-warning }
 
-![image-20241213153510742](/assets/img/3.png)
+![image-20241213153510742](../assets/img/3.png)
 
 
 
