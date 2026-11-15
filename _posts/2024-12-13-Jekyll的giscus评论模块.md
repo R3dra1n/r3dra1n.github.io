@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jekyll的giscus评论模块
-date: 2024-12-13 15:22:52 +0800÷÷
+date: 2024-12-13 15:22:52 +0800
 description: jekyll创建的blog，用giscus模块增加评论模块
 categories: Blog
 tags: MacBook AppleM芯片 Jekyll giscus
